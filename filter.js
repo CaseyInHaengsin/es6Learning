@@ -7,8 +7,13 @@ var products = [
     {name: 'orange', type: 'fruit'}
 ];
 
+var vegetables = [];
 
-products.filter((product) => {
-    
+var result = products.filter((product) => {
+
+    return product.type === 'fruit';
+
 });
+console.log(result);
+
 
